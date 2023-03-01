@@ -1,0 +1,26 @@
+header{
+  background: white;
+  padding: 0;
+  border-bottom: 3px solid rgb(201, 87, 87);
+}
+a:hover{
+  background: rgb(201, 87, 87);
+  color: white;
+}
+.container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+a.logo{
+  font-weight: bold;
+  padding: 1em;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+}
+nav ul li a {
+  padding: 1em;
+  display: inline-block;
+}
